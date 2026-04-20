@@ -17,7 +17,7 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'Harmony Music',
+    title: 'BBVA Payments',
     description: 'A next-generation music streaming platform with AI-powered playlists, social features, and immersive listening experiences.',
     tags: ['STREAMING', 'AUDIO', 'SOCIAL'],
     image: 'https://images.unsplash.com/photo-1762222687051-4c9926eba36d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMHN0cmVhbWluZyUyMGFwcCUyMGludGVyZmFjZXxlbnwxfHx8fDE3NzQ0NjE2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080',
@@ -25,7 +25,7 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: 'Connect Mobile',
+    title: "Telefonica's Cybersecurity Portal",
     description: 'A unified communication platform for teams, combining messaging, video calls, and project collaboration in one elegant interface.',
     tags: ['COLLABORATION', 'MOBILE', 'ENTERPRISE'],
     image: 'https://images.unsplash.com/photo-1661246627162-feb0269e0c07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ24lMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzc0NTE4NDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080',
@@ -33,7 +33,7 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: 'HealthTrack Pro',
+    title: "Telefonica's Icon Library",
     description: 'A comprehensive fitness tracking app that helps users monitor their workouts, nutrition, and wellness goals with personalized insights.',
     tags: ['UI/UX', 'MOBILE', 'HEALTH'],
     image: 'https://images.unsplash.com/photo-1762768767074-e491f1eebdfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaXRuZXNzJTIwYXBwJTIwaGVhbHRoJTIwdHJhY2tpbmd8ZW58MXx8fHwxNzc0NTQyNTg1fDA&ixlib=rb-4.1.0&q=80&w=1080',
@@ -41,7 +41,7 @@ const projects: Project[] = [
   },
   {
     id: 4,
-    title: 'ShopHub Dashboard',
+    title: 'LUCA COMMS',
     description: 'An intuitive e-commerce analytics platform that empowers merchants to track sales, inventory, and customer behavior in real-time.',
     tags: ['DASHBOARD', 'ANALYTICS', 'E-COMMERCE'],
     image: 'https://images.unsplash.com/photo-1629963918958-1b62cfe3fe92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBkYXNoYm9hcmQlMjBhbmFseXRpY3N8ZW58MXx8fHwxNzc0NDQ3ODE1fDA&ixlib=rb-4.1.0&q=80&w=1080',
@@ -49,7 +49,7 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    title: 'Wanderlust Travel',
+    title: 'Valora Futbol',
     description: 'A seamless travel booking experience that helps users discover, plan, and book their dream destinations with curated recommendations.',
     tags: ['BOOKING', 'MOBILE', 'TRAVEL'],
     image: 'https://images.unsplash.com/photo-1701686794404-3670ea43687e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmF2ZWwlMjBib29raW5nJTIwYXBwJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc3NDU0MjU4Nnww&ixlib=rb-4.1.0&q=80&w=1080',
@@ -57,7 +57,7 @@ const projects: Project[] = [
   },
   {
     id: 6,
-    title: 'FinanceFlow',
+    title: 'Santander Justicia',
     description: 'A modern banking app that simplifies personal finance management with smart budgeting tools, investment tracking, and secure transactions.',
     tags: ['FINTECH', 'MOBILE', 'BANKING'],
     image: 'https://images.unsplash.com/photo-1642055509518-adafcad1d22e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBiYW5raW5nJTIwYXBwJTIwZGVzaWdufGVufDF8fHx8MTc3NDU0MjU4OHww&ixlib=rb-4.1.0&q=80&w=1080',

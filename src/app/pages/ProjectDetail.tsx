@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 const projectsData: Record<string, any> = {
   '1': {
     id: 1,
-    title: 'Harmony Music',
+    title: 'BBVA Payments',
     subtitle: 'Redefining Music Streaming',
     description: 'A next-generation music streaming platform with AI-powered playlists, social features, and immersive listening experiences.',
     tags: ['STREAMING', 'AUDIO', 'SOCIAL'],
@@ -16,7 +16,7 @@ const projectsData: Record<string, any> = {
     client: 'Harmony Labs',
     role: 'Product Designer',
     duration: '8 months',
-    fullDescription: `Harmony Music reimagines the music streaming experience by blending AI-powered personalization with social discovery. The platform learns user preferences to create dynamic playlists while enabling friends to share and collaborate on music collections.
+    fullDescription: `BBVA Payments reimagines the music streaming experience by blending AI-powered personalization with social discovery. The platform learns user preferences to create dynamic playlists while enabling friends to share and collaborate on music collections.
 
 The design prioritizes an immersive, distraction-free listening experience with intuitive navigation and beautiful album artwork presentation. Every interaction was crafted to feel fluid and delightful.`,
     challenge: 'Music streaming apps often feel sterile and disconnected. Users wanted a platform that felt personal and social without compromising the listening experience or overwhelming them with features.',
@@ -34,7 +34,7 @@ The design prioritizes an immersive, distraction-free listening experience with 
   },
   '2': {
     id: 2,
-    title: 'Connect Mobile',
+    title: "Telefonica's Cybersecurity Portal",
     subtitle: 'Enterprise Communication Reimagined',
     description: 'A unified communication platform for teams, combining messaging, video calls, and project collaboration in one elegant interface.',
     tags: ['COLLABORATION', 'MOBILE', 'ENTERPRISE'],
@@ -42,7 +42,7 @@ The design prioritizes an immersive, distraction-free listening experience with 
     client: 'ConnectCorp',
     role: 'Lead UX Designer',
     duration: '10 months',
-    fullDescription: `Connect Mobile unifies team communication by bringing together messaging, video conferencing, and project management tools. The platform was designed to reduce context-switching and improve team productivity.
+    fullDescription: `Telefonica's Cybersecurity Portal unifies team communication by bringing together messaging, video conferencing, and project management tools. The platform was designed to reduce context-switching and improve team productivity.
 
 Through extensive enterprise user research, we identified key friction points in existing tools and created a streamlined experience that works seamlessly across devices.`,
     challenge: 'Enterprise teams juggle multiple communication tools, leading to fragmented conversations and lost information. The challenge was to create a unified platform that feels lightweight while handling complex workflows.',
@@ -60,7 +60,7 @@ Through extensive enterprise user research, we identified key friction points in
   },
   '3': {
     id: 3,
-    title: 'HealthTrack Pro',
+    title: "Telefonica's Icon Library",
     subtitle: 'Transforming Fitness & Wellness',
     description: 'A comprehensive fitness tracking app that helps users monitor their workouts, nutrition, and wellness goals with personalized insights.',
     tags: ['UI/UX', 'MOBILE', 'HEALTH'],
@@ -68,7 +68,7 @@ Through extensive enterprise user research, we identified key friction points in
     client: 'FitnessTech Inc.',
     role: 'Lead Product Designer',
     duration: '6 months',
-    fullDescription: `HealthTrack Pro was designed to address the growing need for a holistic fitness and wellness solution. The app combines workout tracking, nutrition monitoring, and personalized health insights into a single, intuitive platform.
+    fullDescription: `Telefonica's Icon Library was designed to address the growing need for a holistic fitness and wellness solution. The app combines workout tracking, nutrition monitoring, and personalized health insights into a single, intuitive platform.
 
 The design process focused on creating an experience that motivates users while providing actionable insights. Through extensive user research and iterative testing, we developed a system that adapts to individual fitness levels and goals.`,
     challenge: 'Users often abandon fitness apps due to overwhelming interfaces and lack of personalization. The challenge was to create an experience that feels approachable yet comprehensive, catering to both fitness beginners and advanced athletes.',
@@ -86,7 +86,7 @@ The design process focused on creating an experience that motivates users while 
   },
   '4': {
     id: 4,
-    title: 'ShopHub Dashboard',
+    title: 'LUCA COMMS',
     subtitle: 'E-Commerce Intelligence Platform',
     description: 'An intuitive e-commerce analytics platform that empowers merchants to track sales, inventory, and customer behavior in real-time.',
     tags: ['DASHBOARD', 'ANALYTICS', 'E-COMMERCE'],
@@ -94,7 +94,7 @@ The design process focused on creating an experience that motivates users while 
     client: 'ShopHub Inc.',
     role: 'Senior Product Designer',
     duration: '7 months',
-    fullDescription: `ShopHub Dashboard transforms complex e-commerce data into actionable insights. The platform helps merchants understand their business performance through intuitive visualizations and predictive analytics.
+    fullDescription: `LUCA COMMS transforms complex e-commerce data into actionable insights. The platform helps merchants understand their business performance through intuitive visualizations and predictive analytics.
 
 We focused on creating a dashboard that serves both daily operations and strategic planning, with customizable views for different merchant needs.`,
     challenge: 'E-commerce merchants drown in data from multiple sources. They needed a unified dashboard that provides immediate insights without requiring data analysis expertise.',
@@ -112,7 +112,7 @@ We focused on creating a dashboard that serves both daily operations and strateg
   },
   '5': {
     id: 5,
-    title: 'Wanderlust Travel',
+    title: 'Valora Futbol',
     subtitle: 'Discover Your Next Adventure',
     description: 'A seamless travel booking experience that helps users discover, plan, and book their dream destinations with curated recommendations.',
     tags: ['BOOKING', 'MOBILE', 'TRAVEL'],
@@ -120,7 +120,7 @@ We focused on creating a dashboard that serves both daily operations and strateg
     client: 'Wanderlust Co.',
     role: 'Product Designer',
     duration: '9 months',
-    fullDescription: `Wanderlust Travel combines inspirational discovery with practical booking tools. The app helps travelers find authentic experiences while handling all logistics in one place.
+    fullDescription: `Valora Futbol combines inspirational discovery with practical booking tools. The app helps travelers find authentic experiences while handling all logistics in one place.
 
 Our research showed that travelers wanted both inspiration and efficiency. The design balances beautiful destination imagery with streamlined booking flows.`,
     challenge: 'Travel planning involves juggling multiple apps and websites. Users needed a single platform that inspires travel ideas while simplifying the booking process across flights, hotels, and activities.',
@@ -138,7 +138,7 @@ Our research showed that travelers wanted both inspiration and efficiency. The d
   },
   '6': {
     id: 6,
-    title: 'FinanceFlow',
+    title: 'Santander Justicia',
     subtitle: 'Personal Banking Simplified',
     description: 'A modern banking app that simplifies personal finance management with smart budgeting tools, investment tracking, and secure transactions.',
     tags: ['FINTECH', 'MOBILE', 'BANKING'],
@@ -146,7 +146,7 @@ Our research showed that travelers wanted both inspiration and efficiency. The d
     client: 'FinanceFlow Bank',
     role: 'Lead Product Designer',
     duration: '12 months',
-    fullDescription: `FinanceFlow reimagines digital banking with a focus on financial wellness. The app makes complex financial concepts accessible while providing powerful tools for budgeting, saving, and investing.
+    fullDescription: `Santander Justicia reimagines digital banking with a focus on financial wellness. The app makes complex financial concepts accessible while providing powerful tools for budgeting, saving, and investing.
 
 Security and trust were paramount throughout the design process. We created an interface that feels modern and approachable while maintaining the gravitas expected from financial services.`,
     challenge: 'Traditional banking apps are difficult to navigate and lack proactive financial guidance. Users needed a platform that helps them understand and improve their financial health.',
